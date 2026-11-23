@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stormheart Privacy Policy</title>
+<meta name="robots" content="noarchive">
+<style>
+  :root { --bg: #f7f8fb; --text: #1d2333; --muted: #5b6478; --accent: #2a6fdb; --card: #ffffff; --line: #e3e7ef; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #11151f; --text: #e6e9f0; --muted: #9aa3b5; --accent: #7fb0ff; --card: #181e2b; --line: #273047; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: 0.95rem; }
+  ul { padding-left: 1.2rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin: 12px 0; }
+  .card h3 { margin: 0 0 6px; font-size: 1rem; }
+  #contact { font-weight: 600; color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Stormheart Privacy Policy</h1>
+  <p class="muted">Game: Stormheart (Android) · Developer: Detoner · Last updated: 23 November 2026</p>
+
+  <p>Stormheart is made by one independent developer. This page explains, in plain words, what information the game
+  sends off your phone, why, and what you can do about it. We don't sell your data and don't use it for advertising.</p>
+
+  <h2>What the game sends</h2>
+
+  <div class="card">
+    <h3>Crash and error reports</h3>
+    <p>If the game crashes, freezes or hits an error, it sends a report so we can fix it: the error details, your phone
+    model, Android version, the game version and a random player ID made by the game. It does not include your name,
+    contacts, location or advertising ID. Processed by Sentry.</p>
+  </div>
+
+  <div class="card">
+    <h3>Bug reports you choose to send</h3>
+    <p>Test versions of the game have a report button. Nothing is sent unless you press it. A report contains what you
+    write, a screenshot of the game, any pictures you choose to add, an optional name you type, your phone model,
+    Android version, screen size, the game version, your game progress (stage, hero level, Power) and the latest game
+    log. Processed by Supabase.</p>
+  </div>
+
+  <div class="card">
+    <h3>Game logs (test versions)</h3>
+    <p>Test versions send gameplay statistics so we can balance the game: stages played, results, damage numbers,
+    choices made, frame rate, and a short device note (phone model, Android version, graphics chip, memory, language,
+    screen size) with a random install ID. Processed by Supabase.</p>
+  </div>
+
+  <div class="card">
+    <h3>Storm Hall leaderboards</h3>
+    <p>To place you on the leaderboards the game sends a random player ID, the player name you pick (or one the game
+    makes up), your scores and Power, your equipped gear and skills, the week you started and the game version.
+    <strong>Other players can see your player name, scores and equipped loadout.</strong> Please don't use your real
+    name or personal details as a player name. Processed by Supabase.</p>
+  </div>
+
+  <h2>What we don't collect</h2>
+  <ul>
+    <li>No advertising ID, no location, no contacts, no photos except the ones you add to a bug report yourself.</li>
+    <li>No payment information (the game has no purchases at the moment).</li>
+    <li>No accounts with email or password: the game signs in anonymously with its random player ID.</li>
+  </ul>
+
+  <h2>Why we use it</h2>
+  <p>Only to run the game's online features (leaderboards), fix bugs and crashes, and balance the game. We don't sell or
+  share it with anyone for advertising or marketing.</p>
+
+  <h2>Who processes it</h2>
+  <p>Two service providers store and process this data for us on their servers: Sentry (crash reports) and Supabase
+  (bug reports, game logs, leaderboards). They may only use it to provide their service to us.</p>
+
+  <h2>How long we keep it</h2>
+  <p>Crash reports are deleted automatically by Sentry after its retention period (about 90 days). Bug reports, game
+  logs and leaderboard entries are kept while we develop and run the game, and we delete them sooner if you ask.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Bug reports are optional: just don't press the report button.</li>
+    <li>To delete your data, email us with your player name and its tag (for example <em>Stormrider#1234</em>, shown
+    on the name screen). We'll delete your leaderboard entry, reports and logs.</li>
+    <li>Uninstalling the game deletes everything stored on your phone.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Stormheart is not directed at children under 13, and we don't knowingly collect data from them. If you believe a
+  child has sent us data, contact us and we'll delete it.</p>
+
+  <h2>Changes</h2>
+  <p>If the game starts collecting anything new (for example, when purchases or ads are added), we'll update this page
+  and the date at the top before that version is released.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or deletion requests: <span id="contact">enable JavaScript to see the address</span></p>
+  <noscript><p>Email: d3toner (at) gmail (dot) com</p></noscript>
+</main>
+<script>
+  // The address is put together here so it isn't in the page source as plain text (keeps most spam bots away).
+  (function () {
+    var u = ["d", "3", "ton", "er"].join(""), d = ["gm", "ail", ".", "com"].join("");
+    document.getElementById("contact").textContent = u + "@" + d;
+  })();
+</script>
+</body>
+</html>
